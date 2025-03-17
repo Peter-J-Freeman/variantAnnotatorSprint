@@ -1,6 +1,12 @@
-from variantAnnotator.logger import logger
-from variantAnnotator.resources import variantValidator_rest, vep_rest
-
+# main.py
+try:
+    from variantAnnotator.logger import logger
+except ImportError:
+    from logger import logger
+try:
+    from .resources import variantValidator_rest, vep_rest
+except ImportError:
+    from resources import variantValidator_rest, vep_rest
 
 def validate_genome_build(build):
     valid_builds = ['GRCh37', 'GRCh38']
