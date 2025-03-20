@@ -2,7 +2,6 @@ import logging
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
-
 # Create a logger instance
 def create_logger():
     # Get the current directory and parent directory for the log path

@@ -7,15 +7,8 @@ authors = [{name = "VariantValidator Contributors", email = "admin@variantvalida
 readme = "README.md"
 keywords = [
     "bioinformatics",
-    "computational biology",
     "genome variants",
-    "genome variation",
-    "genomic variants",
-    "genomic variation",
-    "genomics",
-    "hgvs",
     "HGVS",
-    "sequencevariants"
 ]
 requires-python = ">=3.11"
 
